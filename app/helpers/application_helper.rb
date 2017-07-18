@@ -15,4 +15,8 @@ module ApplicationHelper
         content_tag(:p, greeting, class: "source-greeting")
       end
   end
+  
+  def copyright_generator
+    GreenieJsHotAndFreshGem::Renderer.copyright 'GreenieJ', 'All rights reserved, ma homies!'
+  end
 end
