@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/Drackeon/greenie_js_hot_and_fresh_gem
-  revision: aad7fc5090e8f4c6bcb2f5693e466d4db17f2f5b
-  specs:
-    greenie_js_hot_and_fresh_gem (0.1.0)
-
-GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -82,6 +76,7 @@ GEM
       activerecord (>= 4.0.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    greenie_js_hot_and_fresh_gem (0.1.0)
     i18n (0.8.4)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -201,7 +196,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
-  greenie_js_hot_and_fresh_gem!
+  greenie_js_hot_and_fresh_gem (~> 0.1.0)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
