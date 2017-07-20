@@ -17,6 +17,6 @@ module ApplicationHelper
   end
   
   def copyright_generator
-    GreenieJsHotAndFreshGem::Renderer.copyright 'GreenieJ', 'All rights reserved, ma homies!'
+    GreenieJsHotAndFreshGem::Renderer.copyright 'Jackson Green', 'All rights reserved.'
   end
 end
