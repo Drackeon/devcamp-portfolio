@@ -42,6 +42,10 @@ module ApplicationHelper
         url: portfolios_path,
         title: 'Portfolio'
       },
+      {
+        url: the_latest_path,
+        title: 'The Latest'
+      },
     ]
   end
   def nav_helper style, tag_type

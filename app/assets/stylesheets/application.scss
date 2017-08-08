@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -206,4 +206,17 @@ body {
 
 .app_footer {
   color: white;
+}
+
+.the-latest {
+  color: black;
+  margin: 20px;
+}
+
+.the-latest a {
+  color: green ;
+}
+
+.the-latest > .card {
+    padding: 30px;
 }
