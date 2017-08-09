@@ -7,7 +7,7 @@ module SocialTool
     config.access_token_secret = ENV.fetch("TWITTER_ACCESS_SECRET")
   end
   
-    client.search("#animation", result_type: 'recent').take(6).collect do |tweet|
+    client.user_timeline("BVAnim", result_type: 'recent').take(6).collect do |tweet|
       "#{tweet.user.screen_name}: #{tweet.text}"
   end
   end
