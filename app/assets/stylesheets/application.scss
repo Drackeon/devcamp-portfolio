@@ -220,3 +220,22 @@ body {
 .the-latest > .card {
     padding: 30px;
 }
+
+.app-card-container {
+  color: black;
+  
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img{
+  border: 5px solid black;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.app-card-container a {
+  color: blue;
+}
